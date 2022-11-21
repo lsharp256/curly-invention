@@ -36,7 +36,10 @@ body {
     width: 4%;
     margin: 100px auto;
   }
-
+  #profile-picture {
+    max-width: 40%;
+    height: auto;
+  }
   a {
     color: #7dcbcc;
     font-family: 'Montserrat', sans-serif;
@@ -67,11 +70,6 @@ body {
       width: 50%;
       margin: 100px auto 100px auto;
       text-align: center;
-  }
-  
-  .pro {
-    text-decoration: underline;
-    font-weight: normal;
   }
 
   .intro {

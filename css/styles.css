@@ -11,6 +11,7 @@ body {
     font-family: 'Sacramento', cursive;
     color: #66BFBF;
     line-height: 2;
+    text-align: center;
   }
   
   h2 {
@@ -19,15 +20,18 @@ body {
     color: #66BFBF;
     font-weight: normal;
     padding-bottom: 10px;
+    text-align: center;
   }
   
   h3 {
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
+    text-align: center;
   }
 
   p {
     line-height: 2;
+    text-align: center;
   }
 
   hr {
@@ -37,8 +41,11 @@ body {
     margin: 100px auto;
   }
   #profile-picture {
-    max-width: 40%;
+    max-width: 30%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   a {
     color: #7dcbcc;
@@ -54,16 +61,13 @@ body {
   .top-container {
     background-color: #E4F9F5;
     position: relative;
-    padding-top: 100px;
+    padding-top: 300px;
   }
-  
-  .middle-container {
-    margin: 100px 0;
-  }
-  
+
   .bottom-container {
     background-color: #061616;
     padding: 50px 0 20px;
+    text-align: center;
   }
 
   .skill-row {
@@ -139,4 +143,19 @@ body {
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
+  }
+
+  .center-arrow {
+    text-align:center; 
+    width:100%; 
+  }
+
+  .send-btn {
+    text-align:center; 
+    width:100%;
+  }
+
+  .footer-link {
+    text-decoration: none;
+    color: #7dcbcc
   }

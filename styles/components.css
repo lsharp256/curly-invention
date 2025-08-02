@@ -39,6 +39,10 @@
   white-space: nowrap;
 }
 
+.btn i {
+  margin-right: var(--space-2);
+}
+
 .btn:focus {
   box-shadow: var(--focus-ring);
 }

@@ -1,24 +1,70 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Contact Me</title>
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    <h1>My Contact Details:</h1>
-    <hr>
-    <p>email: Lsharp256@gmail.com</p>
-    <p>phone: +27728537415</p>
-    <p>instagram: <a href="https://www.instagram.com/leroysharp/">@leroysharp</a></p>
-    <form action="mailto:Lsharp256@gmail.com" method="post" enctype="text/plain">
-      <label>Your Name:</label>
-      <input type="text" name="yourName" value=""><br>
-      <label>Your Email:</label>
-      <input type="email" name="yourEmail" value=""><br>
-      <label>Your Message:</label><br>
-      <textarea name="yourMessage" cols="30" rows="10"></textarea><br>
-      <input type="submit" name="">
-    </form>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact - Leroy Sharp</title>
+  <meta name="description" content="Get in touch with Leroy Sharp, Senior QA Automation Engineer. Available for new opportunities in DevOps and Security.">
+  <link rel="canonical" href="https://leroysharp.com/contact.html">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/theme.css">
+  <link rel="stylesheet" href="styles/components.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav container" role="navigation" aria-label="Main navigation">
+    <a href="/" class="nav__brand">LS</a>
+    <div class="nav__links">
+      <a href="/#projects" class="nav__link">Projects</a>
+      <a href="/#experience" class="nav__link">Experience</a>
+      <a href="#contact" class="nav__link">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section" aria-label="Contact information">
+      <div class="container">
+        <div class="max-w-2xl m-auto text-center">
+          <h1>Get In Touch</h1>
+          <p class="mb-8 text-lg">Ready to discuss your next project? I'd love to hear from you.</p>
+          
+          <!-- Contact Methods -->
+          <div class="grid grid-cols-2 md:grid-cols-1 gap-6 mb-12">
+            <div class="card text-center">
+              <i class="fas fa-envelope text-2xl mb-4"></i>
+              <h3>Email</h3>
+              <p>lsharp256@gmail.com</p>
+              <a href="mailto:lsharp256@gmail.com" class="btn btn--outline">Send Email</a>
+            </div>
+            
+            <div class="card text-center">
+              <i class="fab fa-linkedin text-2xl mb-4"></i>
+              <h3>LinkedIn</h3>
+              <p>Connect professionally</p>
+              <a href="https://www.linkedin.com/in/leroy-sharp-027496b5/" target="_blank" rel="noopener noreferrer" class="btn btn--outline">View Profile</a>
+            </div>
+          </div>
+          
+          <div class="text-center">
+            <a href="/" class="btn btn--primary">← Back to Portfolio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__copyright text-center">
+        <i class="far fa-copyright"></i> 2025 Leroy Sharp. All rights reserved.
+      </p>
+    </div>
+  </footer>
+</body>
 </html>

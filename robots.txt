@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://leroysharp.com/sitemap.xml
+
+# Performance
+Crawl-delay: 1
+
+# Disallow development files
+Disallow: /styles/
+Disallow: /*.css$
+Disallow: /*.js$

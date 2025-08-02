@@ -279,25 +279,25 @@
         <div class="max-w-lg m-auto">
           <form name="contact" method="POST" data-netlify="true" class="reveal" novalidate>
             
-            <div class="form-floating form-group">
+            <div class="form-floating">
               <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required aria-describedby="name-error">
               <label for="name" class="form-label">Your Name *</label>
               <div id="name-error" class="error-message" role="alert" aria-live="polite"></div>
             </div>
 
-            <div class="form-floating form-group">
+            <div class="form-floating">
               <input type="email" id="email" name="email" class="form-control" placeholder="your.email@example.com" required aria-describedby="email-error">
               <label for="email" class="form-label">Email Address *</label>
               <div id="email-error" class="error-message" role="alert" aria-live="polite"></div>
             </div>
 
-            <div class="form-floating form-group">
-              <textarea id="message" name="message" class="form-control" placeholder="Tell me about your project..." rows="5" required aria-describedby="message-error"></textarea>
+            <div class="form-floating">
+              <textarea id="message" name="message" class="form-control" placeholder="Tell me about your project..." required aria-describedby="message-error"></textarea>
               <label for="message" class="form-label">Message *</label>
               <div id="message-error" class="error-message" role="alert" aria-live="polite"></div>
             </div>
 
-            <div class="text-center">
+            <div class="text-center mt-8">
               <button type="submit" class="btn btn--primary btn--large" aria-describedby="form-status">
                 <i class="fas fa-paper-plane" aria-hidden="true"></i>
                 Send Message
@@ -441,7 +441,7 @@
     .error-message {
       font-size: var(--text-sm);
       color: var(--color-light-grey);
-      margin-top: var(--space-1);
+      margin-top: var(--space-2);
       display: block;
     }
     
@@ -449,9 +449,9 @@
       text-align: center;
     }
     
-    .form-floating textarea {
-      height: 120px;
-      resize: vertical;
+    /* Ensure proper spacing for form elements */
+    .form-floating:last-of-type {
+      margin-bottom: var(--space-8);
     }
   </style>
 </body>

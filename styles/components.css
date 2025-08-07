@@ -243,10 +243,21 @@
   font-weight: var(--font-semibold);
   text-decoration: none;
   color: var(--color-white);
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: var(--space-2) var(--space-3);
 }
 
 .nav__brand:hover {
   text-decoration: none;
+  color: var(--color-light-grey);
+}
+
+.nav__brand:focus {
+  outline: 2px solid var(--color-white);
+  outline-offset: 2px;
+  border-radius: 4px;
 }
 
 .nav__links {
@@ -261,11 +272,18 @@
   text-decoration: none;
   color: var(--color-light-grey);
   transition: color var(--transition-fast);
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: var(--space-2) var(--space-3);
 }
 
-.nav__link:hover {
+.nav__link:hover,
+.nav__link:focus {
   color: var(--color-white);
   text-decoration: none;
+  outline: 2px solid var(--color-light-grey);
+  outline-offset: 2px;
 }
 
 /* Testimonial */
